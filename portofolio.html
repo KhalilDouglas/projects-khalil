@@ -1,0 +1,164 @@
+
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khalil - Portfolio</title>
+<style>
+/* ----- Reset & Body ----- */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color:  #00008B;
+color: #808080;
+line-height: 1.6;
+padding: 20px;
+}
+
+/* ----- Header ----- */
+header {
+background-color: #222;
+color: white;
+padding: 30px 0;
+text-align: center;
+}
+
+header h1 {
+font-size: 2.5em;
+margin-bottom: 10px;
+}
+
+.corner-image {
+position: fixed; /* Keeps the image in place while scrolling */
+top: 20px; /* Distance from the top */
+right: 20px; /* Distance from the right (can also use left for other corners) */
+width: 60px; /* Adjust the size as needed */
+height: auto;
+z-index: 1000; /* Make sure it stays on top */
+border-radius: 8px; /* Optional: round corners */
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Optional: shadow */
+}
+
+
+nav ul {
+list-style: none;
+margin-top: 10px;
+}
+
+nav ul li {
+display: inline;
+margin: 0 15px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav ul li a:hover {
+text-decoration: underline;
+}
+
+/* ----- Sections ----- */
+section {
+background-color: white;
+padding: 30px;
+margin: 40px auto;
+max-width: 800px;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+color: #007BFF;
+margin-bottom: 15px;
+}
+
+/* ----- Activities Section ----- */
+#activities .activity {
+margin-top: 15px;
+padding: 15px;
+border-left: 4px solid #007BFF;
+background-color: #f9f9f9;
+border-radius: 6px;
+}
+
+#activities .activity h3 {
+margin-bottom: 8px;
+}
+
+/* ----- Contact Links ----- */
+#contact a {
+color: #007BFF;
+text-decoration: none;
+}
+
+#contact a:hover {
+text-decoration: underline;
+}
+
+/* ----- Footer ----- */
+footer {
+text-align: center;
+padding: 20px;
+margin-top: 40px;
+background-color: #222;
+color: white;
+font-size: 0.9em;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Khalil</h1>
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#activities">Activities</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hi my name is Khalil, I was born and raised in Oakland where I then moved to Hayward. I am 15 and currently a student going into sophomore year of high school. I currently aim to get into trade school so I can become a welder.</p>
+</section>
+
+<section id="image">
+    <img src="https://mtc.ca.gov/sites/default/files/styles/half/public/images/2021-06/agi_007b.jpg.webp?itok=1PBUHvhd">
+</section>
+
+<section id="activities">
+    <h2>Activities</h2>
+    <div class="activity">
+        <h3>Career</h3>
+        <p>I aim to get into trade school and practice(learn) to become a weilder once im out of highschool.</p>
+    </div>
+    <div class="activity">
+        <h3>Gaming</h3>
+        <p>In my free time, I play video games with friends and play sports like basketball and football.</p>
+    </div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: <a href="mailto:khalil.douglas@hgs.hiddengeniusproject.org">khalil.douglas@hgs.hiddengeniusproject.org</a></p>
+<p>GitHub: <a href="https://github.com/KhalilDouglas" target="_blank">https://github.com/KhalilDouglas</a></p>
+</section>
+
+<img src="https://static.vecteezy.com/system/resources/previews/045/812/872/non_2x/welder-logo-design-illustration-welder-logo-free-vector.jpg" alt="Khalil's Logo" class="corner-image">
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
